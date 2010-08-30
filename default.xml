@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="buglabsdemo"
+           fetch="git@github.com:thebohemian/android-buglabs-demo.git" />
+
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
   <default revision="froyo"
            remote="korg" />
 
-  <project path="build" name="platform/build">
+  <project path="build" name="platform/build"
+	remote="buglabsdemo" revision="froyo-buglabsdemo" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
