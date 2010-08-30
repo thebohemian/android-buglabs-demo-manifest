@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="buglabsdemo"
-           fetch="git@github.com:thebohemian/android-buglabs-demo.git" />
+           fetch="git@github.com:thebohemian/" />
 
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
@@ -9,7 +9,11 @@
   <default revision="froyo"
            remote="korg" />
 
-  <project path="build" name="platform/build"
+  <!-- name: platform/build was replaced with 'android-buglabs-demo'
+       this part is appended to the fetch URL (and then .git is appended
+       to the result.
+  -->
+  <project path="build" name="android-buglabs-demo"
 	remote="buglabsdemo" revision="froyo-buglabsdemo" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
