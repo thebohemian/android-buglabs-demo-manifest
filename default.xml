@@ -23,7 +23,7 @@
   product.
   -->
   <project path="device/buglabs" name="android-buglabs-device"
-	remote="buglabsdemo" revision="master" />
+	remote="buglabsdemo" revision="froyo-buglabsdemo" />
 
   <project path="bionic" name="platform/bionic" />
 
