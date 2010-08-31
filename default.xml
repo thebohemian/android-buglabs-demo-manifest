@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- General git host for BugLabs Android stuff -->
   <remote  name="buglabsdemo"
            fetch="git@github.com:thebohemian/" />
 
@@ -18,6 +19,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <!-- Brings 'device/buglabs' into the tree and add the 'bug20'
+  product.
+  -->
   <project path="device/buglabs" name="android-buglabs-device"
 	remote="buglabsdemo" revision="master" />
 
