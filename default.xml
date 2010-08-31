@@ -18,6 +18,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <project path="device/buglabs" name="android-buglabs-device"
+	remote="buglabsdemo" revision="master" />
+
   <project path="bionic" name="platform/bionic" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
