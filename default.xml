@@ -13,7 +13,7 @@
        this part is appended to the fetch URL (and then .git is appended
        to the result.
   -->
-  <project path="build" name="android-buglabs-demo"
+  <project path="build" name="android-buglabsdemo"
 	remote="buglabsdemo" revision="froyo-buglabsdemo" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
