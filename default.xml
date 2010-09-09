@@ -120,6 +120,8 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/alsa-lib" name="platform/external/alsa-lib" />
+  <project path="external/alsa-utils" name="platform/external/alsa-utils" />
 
   <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
@@ -127,6 +129,8 @@
   <project path="frameworks/policies/base" name="platform/frameworks/policies/base" />
 
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" />
+
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
