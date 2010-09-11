@@ -4,6 +4,10 @@
   <remote  name="buglabsdemo"
            fetch="git@github.com:thebohemian/" />
 
+  <remote  name="cekay"
+           fetch="git@github.com:cekay/" />
+
+
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
@@ -169,6 +173,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+  <project path="packages/apps/buglabs-demo-app" name="buglabs-demo-app" remote="cekay" revision="master" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
