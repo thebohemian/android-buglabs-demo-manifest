@@ -7,6 +7,8 @@
   <remote  name="cekay"
            fetch="git@github.com:cekay/" />
 
+  <remote  name="gitorious"
+           fetch="http://git.gitorious.org/0xdroid/" />
 
   <remote  name="korg"
            fetch="http://android.git.kernel.org/"
@@ -138,6 +140,7 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
+  <project path="hardware/omap3/libgralloc" name="hardware_omap3_libgralloc" remote="gitorious" revision="master" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" />
   <project path="hardware/ril" name="platform/hardware/ril" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
